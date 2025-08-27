@@ -1,0 +1,30 @@
+
+
+Sloped down one: (math.log(y)/(y-x))*(-x**4) (y:50,100; x:0,200)
+
+
+circlish:np.log(1 - np.sqrt(x**2 + y**2)) * (1.5 - y)**beta
+
+
+snake3: something like this: (x-1)/(math.log(y**6)-x)
+
+
+Follow-up to circlish: rectangle of height 3, width 12.25: math.log(12.25-x)*math.log(3-y) * (1.5 - y)**beta (beta=yinit[I]/yfinal) (x=0..12.25, y=0..3)
+
+
+Waving flag: math.log(12.25-x)*math.log(3-y) * (1.5*(math.sin((math.pi/4)*initial_y)**2))*beta-y*math.cosh(x)+0.5*y*math.sin(y)+3*(math.sin(2*math.pi*x))**2 (beta=yinit[I]/yfinal) (xscale, yscale, both log).
+
+
+Rectish 10: wierd behavior due to (21*math.log(3-y)*(1)**((initial_y*100))%2), where y was 0,3 300 solns =linspace(0,3,300). Even weirder, it gave the same thing when switching to 301 solns. 
+
+
+
+
+
+
+
+        scaler=lambda y,x:2*((1/(1+math.exp(-x)))-1)*(y-1.5)
+
+        y=scaler(y,x)
+
+        return (math.log(4.5-y)) * (1.5*(math.sin((math.pi/4)*initial_y)**2))*beta-y*math.cosh(x)+0.5*y*math.sin(y)+3*(math.sin(2*math.pi*x))**2

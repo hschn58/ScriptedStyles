@@ -1,0 +1,5 @@
+
+
+For rectish_1, convert the solution to radii, and re-plot as a 3D plot. Then make a 'stick' below the plot, making a sort of abstract butterfly net. 
+
+For rectish 5, make a dense solution, (2D flag, with a flagpole)

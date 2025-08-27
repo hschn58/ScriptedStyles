@@ -1,0 +1,3 @@
+*iterate square thing to start making multiple levels of patterns
+
+*use slope plus normalization for box method

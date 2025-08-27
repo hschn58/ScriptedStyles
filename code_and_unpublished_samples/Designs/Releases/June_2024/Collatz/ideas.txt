@@ -1,0 +1,9 @@
+*change background colors
+*change function colors, scale pattern (exp(1.4....)
+*blue on white
+
+*log scale on one of the upper stable axis 
+
+*polynomial transform (like ft) of singular data (use (x-b)^n) (should work)
+
+*for choatic cycling below upper bound make one of just that section the drooping looks cool
