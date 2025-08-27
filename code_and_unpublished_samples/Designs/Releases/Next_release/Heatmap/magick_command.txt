@@ -1,0 +1,1 @@
+magick -density 300 /Users/henryschnieders/Documents/ScriptedStyles/Designs/Releases/Next_release/Heatmap/Data/turtle_density_feed.eps -units pixelsperinch -bordercolor white -border 600 /Users/henryschnieders/Documents/ScriptedStyles/Designs/Releases/Next_release/Heatmap/Data/turtle_density_feed.png

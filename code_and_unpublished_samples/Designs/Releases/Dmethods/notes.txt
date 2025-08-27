@@ -1,0 +1,7 @@
+
+*Can rotate a figure by changing ax.set_xlim(--).. .ylim()
+
+General Design methods:
+
+*collaging-take different randomly generated images and stitch together with arbitrary rule
+

@@ -1,0 +1,1 @@
+Like erf, but draw a ship and take a picture of it on a blank page in front of a book with the text open. Then, use the algorithm to do what you did for erf. Should give a cool pattern behind the ship

@@ -1,0 +1,5 @@
+
+Bunch of repeated curves stacked on top of each other. Cool shirt design would be one shaped in a bowtie with the bowtie near the neck
+
+Yes-let the points be held in an array. Plot each line with some d(theta) increase between each line with respect to some other point. 
+

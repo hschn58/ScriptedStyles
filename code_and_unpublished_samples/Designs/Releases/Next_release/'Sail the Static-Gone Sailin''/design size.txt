@@ -1,0 +1,6 @@
+
+
+All image sizes are 9.94 units wide, 7.5 units tall (69.81 units^2)
+
+Caption is 8.0 wide by 1.16 tall
+
