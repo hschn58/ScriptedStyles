@@ -34,7 +34,7 @@ cd ScriptedStyles/Codebase
 python flowers_v4.py     
 ```
 
-Further customization detailed in script header overview.
+Further customization detailed in flowers_v4.py script header overview.
 
 ---
 **Generated Samples**
