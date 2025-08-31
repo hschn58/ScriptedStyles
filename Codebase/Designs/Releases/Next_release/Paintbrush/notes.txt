@@ -1,0 +1,5 @@
+
+The goal of this project was to abstract the idea of paintbrush brush strokes to their core properties: something that takes up a finite space, leaves a characteristic pattern that is influenced by how it is used, and that can take different colors
+
+In future, can use AI to think of the desired hollow region found by canny as a fish: imagine where the scales would go, how big they would be in each spot: make a matrix for this, then apply the brush for each of those points
+

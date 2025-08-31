@@ -1,5 +1,29 @@
+"""
+
+Generates a recursive “triangle weave” on a dark background: starting from an initial equilateral
+triangle, the script iteratively plots edge-connected child triangles at three scales (1, 2/3, and (2/3)²),
+rotating counterclockwise by a fixed rate. Lines are colored with the reversed Turbo colormap to create a 
+radial gradient as iterations progress, producing a dense geometric lattice with no axes or fill.
+
+This script draws a fractal-like lattice of equilateral triangles on a dark background. It seeds a central
+parent triangle and then, for each iteration, spawns three child trajectories at three size tiers—large 
+(indices 1/4/7), medium (2/5/8), and small (3/6/9)—using precomputed start points and rotations from start_points(...) 
+and vertex paths from triangles(...). The orientation advances counterclockwise by a constant angular step (prog_rate), 
+while scale decreases by delta = 2/3 per tier.
+
+To display the image on-screen immediately, remove "matplotlib.use('AGG')". However, this is added to prevent aliasing artifacts.
+The image looks substantially better when rendered with AGG and viewed after being saved locally. 
+
+"""
+
+
+
 from funcs_triang_separate import start_points, triangles
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('AGG')   
+# 1) move this ABOVE any figure creation
+
 import numpy as np
 
 #largest triangles data: 1,4,7
@@ -73,12 +97,12 @@ assign_data(iter_num, prog_rate)
 colormap = plt.get_cmap('turbo_r')
 
 fig=plt.figure(figsize=(10,10))
+plt.style.use('dark_background')
     
 def triang_plot(linewid):
 
     import matplotlib
-    matplotlib.use('AGG')
-    plt.style.use('dark_background')
+    
     
     global vert1,  vert2, vert3
 
@@ -166,8 +190,10 @@ triang_plot(2/3)
 # # Display the modified image
 # plt.imshow(rgba_image)
 # plt.axis('off')
-# plt.show()
+
+
+plt.savefig('./Desktop/cool_separate_lines_highcolorchange_cyclicmap.png', dpi=1200, bbox_inches='tight', pad_inches=0)
+plt.show()
 
 
 
-plt.savefig('/Users/henryschnieders/Desktop/proj/Designs/Releases/June 2024/triangles/Images/Mult/cool_separate_lines_highcolorchange_figsize_cyclicturbor.png', transparent=True, dpi=1200)

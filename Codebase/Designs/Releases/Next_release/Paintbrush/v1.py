@@ -5,7 +5,7 @@ import matplotlib.image as mpimg
 # ---------------------------
 # 1. Load a real image
 # ---------------------------
-img = mpimg.imread("/Users/henryschnieders/Desktop/spicy.jpg")
+img = mpimg.imread("/Users/henryschnieders/Downloads/spicy.jpg")
 
 # If image is stored with integer 0–255, convert to float range [0,1]
 if img.dtype == np.uint8:

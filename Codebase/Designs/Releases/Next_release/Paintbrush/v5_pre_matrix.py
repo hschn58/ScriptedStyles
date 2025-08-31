@@ -10,7 +10,7 @@ import random
 # 1) Load an image via OpenCV
 #    (BGR order by default)
 # -----------------------------
-img_bgr = cv2.imread("/Users/henryschnieders/desktop/spicy.jpg")  
+img_bgr = cv2.imread("/Users/henryschnieders/Downloads/spicy.jpg")  
 if img_bgr is None:
     raise IOError("Could not read 'some_image.jpg'. Make sure the path is correct.")
 
