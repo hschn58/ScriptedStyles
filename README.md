@@ -17,7 +17,7 @@ Originally begun as a personal project, it has evolved into a platform for exper
 - Reproducible workflows built in Python using **NumPy**, **Matplotlib**, and **SciPy**.  
 - Modular codebase for testing new generative ideas.  
 - Automation stack for batch-uploading to social and e-commerce platforms.  
-- Example image sets included (`Sample_Images`, `images`).  
+- Example image sets included (`Sample_Images`).  
 
 ---
 
