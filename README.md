@@ -31,12 +31,11 @@ Originally begun as a personal project, it has evolved into a platform for exper
 ```bash
 git clone https://github.com/hschn58/ScriptedStyles.git
 cd ScriptedStyles/Codebase
-python flowers_v4.py ```
+python flowers_v4.py
 
 ---
 
-
-## Real-World Deployment
+**Real-World Deployment**
 
 This project was not only a creative coding exploration but also implemented as a full e-commerce automation pipeline:
 
