@@ -38,14 +38,12 @@ python flowers_v4.py
 
 **Real-World Deployment**
 
-This project was not only a creative coding exploration but also implemented as a full e-commerce automation pipeline:
+This not only functioned as a personal project but used to be an active e-commerce automation pipeline:
 
 - **Artwork generation** → produced in Python using the scripts in this repo.  
 - **Fulfillment** → connected via Printify to create physical products.  
 - **Storefront** → integrated with Etsy to manage product listings.  
 - **Marketing** → automated posting of generated images to Instagram and Facebook to drive engagement.  
-
-This end-to-end workflow demonstrates how algorithmic art and automation can move from code → product → distribution.
 
 **Links to deployed channels:**  
 - Instagram: [@scriptedstylesart](https://www.instagram.com/scriptedstylesart)  
