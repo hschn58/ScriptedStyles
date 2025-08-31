@@ -33,10 +33,11 @@ git clone https://github.com/hschn58/ScriptedStyles.git
 cd ScriptedStyles/Codebase
 python flowers_v4.py     
 ```
+
 Further customization detailed in script header overview.
+
 ---
 **Generated Samples**
-
 
 
 Here are a few representative outputs generated with the scripts in this repo:
@@ -46,11 +47,8 @@ Here are a few representative outputs generated with the scripts in this repo:
   <img src="Sample_Images/superformula_baseshape.png" alt="Floral algorithm output" width="250">
   <img src="Sample_Images/plane_windows.jpg" alt="Abstract airport art" width="250">
 </p>
+
 *(Click thumbnails to view full size. See the `Sample_Images/` folder for more.)*
-
-
-
-
 
 **Real-World Deployment**
 
