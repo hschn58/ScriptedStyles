@@ -7,6 +7,7 @@ from matplotlib.colors import LogNorm, PowerNorm
 matplotlib.use('Agg')
 
 #heatmap through the frames
+
 grid_size = 1000000
 sigmacoeff = 7/1000 * (grid_size/100)*1.5
 
@@ -137,10 +138,9 @@ from ScriptedStyles.Designs.Releases.ismethods.check import unique_filename
 colormap='cyclic_binary'
 # Plot the heatmap with increased spatial resolution and line width effect
 plt.figure(figsize=(6, 6))
-plt.imshow(normalized_path_density[50:950,50:950], cmap=cyclic_binary, origin='lower', extent=[0, 1, 0, 1], norm=PowerNorm(0.5))
+plt.imshow(normalized_path_density, cmap=cyclic_binary, origin='lower', extent=[0, 1, 0, 1], norm=PowerNorm(0.5))
 plt.axis('off')
 plt.savefig(unique_filename('/Users/henryschnieders/downloads/2d_heatmap_powernorm_'+colormap+'_strange'+'.jpg'), dpi=1200)
 plt.close()
 
 
-#DO VORONOI TESSELATION ON TOP of BINARY!

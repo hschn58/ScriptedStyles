@@ -1,3 +1,26 @@
+"""
+
+This script generates ultra-high-resolution mathematical artworks based on flower-like patterns and exports them as print-ready images. 
+It procedurally constructs 2D density fields using analytic functions (e.g., rose, daisy, spiral, lily, dahlia), parametric equations
+(the superformula), or external line-art images. The density fields are smoothed with Gaussian filters, mapped through custom cyclic 
+colormaps derived from triangle-wave functions, and rendered with non-linear normalization to highlight fine structural detail.
+
+Pandas - related content can be removed without affecting functionality.
+
+unique_filename was used as bookeeping to track cause-and-effect to recent changes. 
+To make use of it, navigate to ScriptedStyles (repo root) -> Designs -> Releases > ismethods (in-situ methods) -> check
+
+If setting global variable 'flower' to 'external': 
+
+1. Download the 'Data' folder in this directory. 
+2. Get the desired data file path in the 'external_path' argument. 
+3. Run the script via terminal or command prompt with python3 flowers_v4.py --external_path /path/to/data/file.png
+
+
+
+"""
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.ndimage import gaussian_filter
@@ -15,7 +38,7 @@ start = time.time()
 
 # Use non-interactive Agg backend for saving the Matplotlib figure.
 matplotlib.use('Agg')
-DESCRIPTIVE_KEYWORD = 'snowflake'
+DESCRIPTIVE_KEYWORD = 'snowflake' # for flower type. 'flower' variable holds the current 'flower' type. Right now, it is set to external (hence 'snowflake')
 
 # --------------------------------------------------------------------------
 # Global parameters
@@ -42,8 +65,8 @@ parser = argparse.ArgumentParser(description='Generate a fun quilt with differen
 parser.add_argument('--colormap', type=str, default='PuBu_r', help='Colormap name')
 parser.add_argument('--sigfreq', type=float, default=10*(10000/512), help='Gaussian sigma frequency factor')
 parser.add_argument('--colorfreq', type=float, default=12, help='Frequency parameter')
-parser.add_argument('--flower', type=str, default='external', 
-                    help='Flower type (e.g., rose, daisy, spiral, lily, dahlia, superformula, or external)')
+parser.add_argument('--flower', type=str, default='daisy', 
+                    help='Flower type (e.g., rose, daisy, spiral, lily, dahlia, superformula, external, superformula, or external)')
 # New parameter for external image (only used when flower type is "external")
 parser.add_argument('--external_path', type=str, default='/Users/henryschnieders/Documents/ScriptedStyles/Designs/Releases/Next_release/Heatmap/Data/turtle_density_feed.png', 
                     help='Path to external image for external flower type')
@@ -284,7 +307,7 @@ plt.axis('off')
 plt.tight_layout()
 
 # --------------------------------------------------------------------------
-# Update the product information CSV.
+# Update the product information CSV. - Used for automated postings
 # --------------------------------------------------------------------------
 df = pd.read_csv('/Users/henryschnieders/Documents/ScriptedStyles/Automation/Printify/Data/product_information.csv')
 df['local_path'].iloc[0] = filename
