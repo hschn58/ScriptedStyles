@@ -31,11 +31,11 @@ Originally begun as a personal project, it has evolved into a platform for exper
 ```bash
 git clone https://github.com/hschn58/ScriptedStyles.git
 cd ScriptedStyles/Codebase
-python flowers_v4.py      #more customization info listed in script header
+python flowers_v4.py     
 ```
-
+Further customization detailed in script header overview.
 ---
-**Quick Samples**
+**Generated Samples**
 
 
 
