@@ -14,4 +14,13 @@ While some of what's here are still ideas, most files will run if a few things a
 
 The fastest way to run these scripts is to clone the repo and try to run them, after Python and the external dependencies Matplotlib, Numpy, and Scipy have been installed. This is a compilation of whatever came to mind that I felt was worth pursuing, so the structure for each project idea (which corresponds to a folder in "June 2024" or Next_Release (Codebase -> Designs -> Releases)) is different. Most of the projects did not require heavy lifting from other external libraries.
 
-Once Matplotlib, Numpy, and Scipy have been installed, 'flowers_v4.py' is an interesting example to run. It can use several content subjects (rose, daisy, spiral, lily, dahlia, superformula, or external (external has data for a heart and a form of Koch snowflake)). Detailed information can by found at the top of the script. 
+Examples (there are plenty others): 
+
+Once Matplotlib, Numpy, and Scipy have been installed, 'flowers_v4.py' is an interesting example to run (Codebase -> Designs -> Releases -> Next_release -> Heatmap). It can use several content subjects (rose, daisy, spiral, lily, dahlia, superformula, or external (external has data for a heart and a form of Koch snowflake)). Detailed information can by found at the top of the script. 
+
+For simpler runs, Codebase -> Designs -> Releases -> June_2024 -> triangles -> Code -> Mult -> cool_separate_lines_highcolorchange_cyclicmap.py can be run after right after "funcs_triang_separate.py" in the same folder is moved to the same local directory. 
+
+Codebase -> Designs -> Releases -> Next_release -> Heat_diffusion_soln -> q2_animation2.py can be run immediately after downloading. 
+
+
+
