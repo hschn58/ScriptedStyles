@@ -41,9 +41,9 @@ python flowers_v4.py      #more customization info listed in script header
 
 Here are a few representative outputs generated with the scripts in this repo:
 
-[<img src="Sample_Images/triangles.png" width="250">](Sample_Images/flowers.png)
-[<img src="Sample_Images/superformula_baseshape.png" width="250">](Sample_Images/triangles.png)
-[<img src="Sample_Images/plane_windows.png" width="250">](Sample_Images/heatmap.png)
+[<img src="Sample_Images/triangles.png" width="250">](Sample_Images/triangles.png)
+[<img src="Sample_Images/superformula_baseshape.png" width="250">](Sample_Images/superformula_baseshape.png)
+[<img src="Sample_Images/plane_windows.png" width="250">](Sample_Images/plane_windows.png)
 
 *(Click thumbnails to view full size. See the `Sample_Images/` folder for more.)*
 
