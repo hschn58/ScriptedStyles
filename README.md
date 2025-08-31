@@ -33,23 +33,22 @@ git clone https://github.com/hschn58/ScriptedStyles.git
 cd ScriptedStyles/Codebase
 python flowers_v4.py     
 ```
-Further customization detailed in script header overview.
+
+Further customization detailed in flowers_v4.py script header overview.
+
 ---
 **Generated Samples**
 
 
-
 Here are a few representative outputs generated with the scripts in this repo:
 
-[<img src="Sample_Images/triangles.png" width="250">](Sample_Images/triangles.png)
-[<img src="Sample_Images/superformula_baseshape.png" width="250">](Sample_Images/superformula_baseshape.png)
-[<img src="Sample_Images/plane_windows.jpg" width="250">](Sample_Images/plane_windows.jpg)
+<p align="center">
+  <img src="Sample_Images/triangles.png" alt="Triangular tiling pattern" width="250">
+  <img src="Sample_Images/superformula_baseshape.png" alt="Floral algorithm output" width="250">
+  <img src="Sample_Images/plane_windows.jpg" alt="Abstract airport art" width="250">
+</p>
 
 *(Click thumbnails to view full size. See the `Sample_Images/` folder for more.)*
-
-
-
-
 
 **Real-World Deployment**
 
