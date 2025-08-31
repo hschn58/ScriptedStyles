@@ -43,7 +43,7 @@ Here are a few representative outputs generated with the scripts in this repo:
 
 [<img src="Sample_Images/triangles.png" width="250">](Sample_Images/triangles.png)
 [<img src="Sample_Images/superformula_baseshape.png" width="250">](Sample_Images/superformula_baseshape.png)
-[<img src="Sample_Images/plane_windows.png" width="250">](Sample_Images/plane_windows.png)
+[<img src="Sample_Images/plane_windows.jpg" width="250">](Sample_Images/plane_windows.jpg)
 
 *(Click thumbnails to view full size. See the `Sample_Images/` folder for more.)*
 
