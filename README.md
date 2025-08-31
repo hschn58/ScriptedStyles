@@ -1,5 +1,6 @@
 # ScriptedStyles
-Post-personal-art-business now hobby
+
+This is a post-personal-art-business now hobby; I make digital art in Python using primarily mathematical algorithmic techniques, but also draw from various image processing and scientific analysis methods which I have learned about directly or adjacently from my undergraduate education. 
 
 What is present reflects most of my work, with larger image and data files not being present. 
 
