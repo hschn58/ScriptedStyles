@@ -31,9 +31,10 @@ Originally begun as a personal project, it has evolved into a platform for exper
 ```bash
 git clone https://github.com/hschn58/ScriptedStyles.git
 cd ScriptedStyles/Codebase
-python flowers_v4.py
+python flowers_v4.py ```
 
 ---
+
 
 ## Real-World Deployment
 
@@ -50,4 +51,6 @@ This end-to-end workflow demonstrates how algorithmic art and automation can mov
 - Instagram: [@scriptedstylesart](https://www.instagram.com/scriptedstylesart)  
 - Facebook: [ScriptedStyles](https://www.facebook.com/profile.php?id=61572520106684)  
 - Etsy: [ScriptedStylesArt Shop](https://www.etsy.com/shop/ScriptedStylesArt)  
+
+
 
