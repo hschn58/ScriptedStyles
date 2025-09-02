@@ -66,7 +66,7 @@ This not only functioned as a personal project but used to be an active e-commer
 
 ---
 
-**License**
+## License
 
 MIT License
 
