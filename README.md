@@ -29,9 +29,10 @@ Originally begun as a personal project, it has evolved into a platform for exper
 
 **Quick start:**  
 ```bash
+
 git clone https://github.com/hschn58/ScriptedStyles.git
-cd ScriptedStyles/Codebase
-python3 flowers_v4.py     
+
+python3 ScriptedStyles/Codebase/Designs/Releases/Next_release/Heatmap/flowers_v4.py     
 ```
 
 Further customization detailed in flowers_v4.py script header overview.
