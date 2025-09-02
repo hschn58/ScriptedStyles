@@ -64,5 +64,9 @@ This not only functioned as a personal project but used to be an active e-commer
 - Facebook: [ScriptedStyles](https://www.facebook.com/profile.php?id=61572520106684)  
 - Etsy: [ScriptedStylesArt Shop](https://www.etsy.com/shop/ScriptedStylesArt)  
 
+---
 
+**License**
+
+MIT License
 
