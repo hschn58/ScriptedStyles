@@ -68,10 +68,12 @@ This not only functioned as a personal project but used to be an active e-commer
 ---
 
 ## Notes
-Many of these scripts were used to generate professional, large, high-resolution images.  
+Many of these scripts were used to generate professional, large, high-resolution images.
+
 - Output files are often **50 MB+**.  
-- Depending on the project and your hardware, rendering can take **20–30 minutes (or longer)** on a standard laptop.
-- All decreasing the dpi or grid_size (if relevant) can dramatically reduce these undesirable traits.  
+- Depending on the project and your hardware, rendering can take **20–30 minutes (or longer)** on a standard laptop.  
+- Reducing parameters such as `dpi` or `grid_size` (when available) can significantly decrease file size and runtime.
+ 
 
 
 ## License
