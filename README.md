@@ -69,5 +69,5 @@ This not only functioned as a personal project but used to be an active e-commer
 
 ## License
 
-MIT License
+This project is licensed under the [MIT License](./LICENSE).
 
