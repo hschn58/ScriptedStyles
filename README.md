@@ -67,6 +67,9 @@ This not only functioned as a personal project but used to be an active e-commer
 
 ---
 
+## Notes 
+Much of the scripts were used to produce professional, large, high-resolution images. These files are typically 50MB + and, depending on the project, could take 30 minutes for a laptop to render.
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
