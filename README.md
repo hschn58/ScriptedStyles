@@ -67,8 +67,11 @@ This not only functioned as a personal project but used to be an active e-commer
 
 ---
 
-## Notes 
-Much of the scripts were used to produce professional, large, high-resolution images. These files are typically 50MB + and, depending on the project, could take 30 minutes for a laptop to render.
+## Notes
+Many of these scripts were used to generate professional, large, high-resolution images.  
+- Output files are often **50 MB+**.  
+- Depending on the project and your hardware, rendering can take **20–30 minutes (or longer)** on a standard laptop.  
+
 
 ## License
 
